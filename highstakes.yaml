@@ -1,0 +1,10 @@
+train:
+  E:\work\high-stakes-train\training_data_detect_ring_v2\train\images
+val:
+  E:\work\high-stakes-train\training_data_detect_ring_v2\valid\images
+test: 
+  E:\work\high-stakes-train\training_data_detect_ring_v2\test\images
+
+nc: 2
+
+names: [blue-ring, red-ring]
