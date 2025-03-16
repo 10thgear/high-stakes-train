@@ -8,7 +8,7 @@ model = YOLO("runs\\detect\\train7\\weights\\best.pt")
 
 
 model.predict(
-    "test_data\\videoplayback_4.mp4", save = True, hide_labels=True, hide_conf=True
+    "test_data\\videoplayback_4.mp4", save=True, hide_labels=True, hide_conf=True
 )
 
 # model.predict('E:\\work\\highstakes\\maxresdefault.jpg', save = True, hide_labels=True, hide_conf=True)
